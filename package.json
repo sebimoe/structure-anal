@@ -1,6 +1,6 @@
 {
   "name": "structure-anal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small utility library for analysis of fields in JSON-like data structures.",
   "author": "sebimoe <sebi@sebi.moe>",
   "license": "MIT",
