@@ -43,7 +43,7 @@ import {
   makePathReducer,      // Helper for making collapsing path reducers
   printAnalyzerEntries, // Helper for printing entries
   fieldInfoSummary,     // Helper for text representation of an entry
-} from 'structure-analyzer';
+} from 'structure-anal';
 
 import type { 
   StructureAnalyzerOptions,
@@ -51,7 +51,7 @@ import type {
   FieldInfo,
   PrintAnalyzerEntriesOptions,
   PrintFn,
-} from 'structure-analyzer'
+} from 'structure-anal'
 ```
 
 ### Results
