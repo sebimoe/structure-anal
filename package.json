@@ -1,0 +1,43 @@
+{
+  "name": "structure-anal",
+  "version": "1.0.0",
+  "description": "A small utility library for analysis of fields in JSON-like data structures.",
+  "author": "sebimoe <sebi@sebi.moe>",
+  "license": "MIT",
+  "homepage": "https://github.com/sebimoe/structure-anal#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebimoe/structure-anal.git"
+  },
+  "scripts": {
+    "build": "npm-run-all clean build:esm build:cjs",
+    "build:esm": "tsc --project tsconfig.esm.json",
+    "build:cjs": "tsc --project tsconfig.cjs.json",
+    "clean": "rimraf dist types"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "keywords": [
+    "json",
+    "object",
+    "structure",
+    "analysis",
+    "analyser",
+    "analyzer",
+    "anal",
+    "inspect",
+    "inspection",
+    "listing",
+    "summary"
+  ],
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^5.0.7",
+    "typescript": "^5.4.5"
+  }
+}
